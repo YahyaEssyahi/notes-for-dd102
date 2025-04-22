@@ -1,0 +1,105 @@
+#h2{
+    padding-left: 20;
+    color: rgb(82, 207, 221);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    text-decoration: dashed;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    animation-name: hh ;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes hh{
+    0%{
+        opacity: 25%;
+    }
+    100%{
+        opacity: 100%;
+    }
+    150%{
+        opacity: 100%;
+    }
+}
+
+#cer{
+    color: color-mix(in srgb, blue 25%, purple 75%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: rgb(123, 123, 102);
+    
+    color: aqua;
+    padding : 150px;
+    
+}
+img{
+    background-image:url(/Downloads/web-development-and-programming-coding-concept-seo-optimization-modern-web-design-on-laptop-screen-vector.jpg);
+    background-size: contain;
+    background-position: center;
+}
+input:hover{
+border-color: rgb(15, 32, 32);
+    border-radius: 8%;
+    border-style: ridge;
+    box-shadow: 50px;
+    justify-self: center;
+    padding: 5px ;
+    color: rgb(28, 28, 177);
+    background-color: #0a0a23;
+    
+}
+#cal:hover{
+    cursor: pointer;
+      
+    
+    background-color:#151563;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    animation-name: yahya;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    
+}
+#effc:hover{
+    cursor: pointer;
+    background-color:#151563;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: yahya;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+@keyframes yahya{
+    10%{
+        box-shadow: purple;
+        margin-left: 5px;
+        color: aqua;
+        margin-top: 6px;
+    }
+    100%{
+        box-shadow: darkmagenta;
+        margin-right:8px ;
+        color: rgb(157, 157, 231);
+        margin-bottom: 6px;
+    }
+}
+.styl{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+    text-shadow: rgb(255, 0, 255) 50%;
+    text-decoration: solid;
+}
+#btn:hover{
+    cursor: pointer;
+    border-style: groove;
+    text-decoration: dotted;
+    align-items: center;
+    
+}
